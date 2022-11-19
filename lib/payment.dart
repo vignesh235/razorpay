@@ -39,11 +39,11 @@ class _paymentState extends State<payment> {
 
   void openCheckout() async {
     var options = {
-      'key': 'rzp_live_hBQP9dWRIpRDu1',
+      'key': 'rzp_test_eedzyvh6yZOhIh',
       'amount': 500, //in the smallest currency sub-unit.
       'name': 'Acme Corp.',
       'description': 'Fine T-Shirt',
-      'timeout': 60, // in seconds
+      'timeout': 120, // in seconds
       'prefill': {
         'contact': '91231056789',
         'email': 'gaurav.kumar@example.com'
