@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:razor_payment/payment.dart';
+import 'package:razor_payment/widgets/bottom_navigation.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,9 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: payment(),
+      home: MyHomePage(),
     );
   }
 }
-
-
